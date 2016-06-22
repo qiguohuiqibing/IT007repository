@@ -41,6 +41,7 @@ tableleft = 100,
 -(NSMutableArray*)indexArray{
     if (!_indexArray) {
         _indexArray = [NSMutableArray arrayWithObjects:[NSMutableArray array],[NSMutableArray array], nil];
+        int a = 10;
     }
     return _indexArray;
     
